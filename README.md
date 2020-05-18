@@ -34,12 +34,12 @@ README
   ![5](https://github.com/jiweixing/aars/raw/master/screen_shot/3_5.jpg "Assemble button in tool bar")	<br>
   Then all the work have been done. Just use run, step and other command in the tool bar(next to  the assemble button) to run the code and watch the outcomes.<br>
 ### About the source code：
-  The main class is in Rars.java and other source codes are in help, images and rars, in case anyone want to compile or read the code
+  The main class is in Aars.java and other source codes are in help, images and Aars, in case anyone want to compile or read the code
 ## 4. Examples 
-  (1. Open Rars.jar, find **Help→Rars→Examples**, where two example are presented.<br>
+  (1. Open Aars.jar, find **Help→Aars→Examples**, where two example are presented.<br>
   (2. Open directory `.\asm_examples`. More examples will be found to implement Bubblesort and calculate fibonacci.<br>
 ## 5. Future Work
   More pseudo-instrucions to be added.<br>
-  Syscall will be adjusted to follow the general use of register in Risc-V<br>
+  Syscall will be adjusted to follow the general use of register in ARM<br>
   <br>
   Please feel free to contact us(jwx@bit.edu.cn), if you have any questions about this project.<br>
