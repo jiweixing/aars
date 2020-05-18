@@ -1,0 +1,30 @@
+<html>
+<title>BIT-AARS 0.2 help contents
+</title>
+<body>
+<center>
+<h3>BIT-AARS - ARM Assembly and Runtime Simulator</h3>
+<h4>Release 0.2</h4>
+<h4>May 2020</h4>
+<h4>Cool Capability: Plug-in Tools</h4>
+</center>
+
+Old tools in MARS 4.5 are selected and modified for usage in ARM.
+Just like MARS 4.5, AARS 0.2 is capable of running externally-developed software that meets a set of requirements.
+Everyone is encouraged to contribute new tools to this system.
+
+The requirements for such a program are:
+<ol>
+<li>It implements the <tt>aars.tools.MarsTool</tt> interface.
+<li>It is part of the <tt>aars.tools</tt> package.
+<li>It compiles cleanly into a ".class" file, stored in the <tt>aars/tools</tt> directory.
+</ol>
+AARS will detect all qualifying tools upon startup and include them in
+its Tools menu. 
+When a tool's menu item is selected, an instance of it will be created using its no-argument
+constructor and its <tt>action()</tt> method will be invoked.
+If no qualifying tools are found at AARS startup, the Tools menu will not 
+appear.  
+
+</body>
+</html>

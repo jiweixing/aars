@@ -1,0 +1,9 @@
+str  r11,[r0,#112]!	str RG1,[RG3,RG4]	add RG3, RG3, VL4
+ldr  r11,[r0,#112]!	ldr RG1,[RG3,RG4]	add RG3, RG3, VL4
+pop {r0, r1, r2}	ldr RG2,[sp]	ldr RG3,[sp, #4]	ldr RG4,[sp, #8]	add sp, sp, #12
+push  {r0}	sub sp, sp, #4	str RG2,[sp]	
+pop  {r0}	ldr RG2,[sp]	add sp, sp, #4
+push {r0, r1}	sub sp, sp, #8	str RG2,[sp, #4]	str RG3,[sp]
+pop {r0, r1}	ldr RG2,[sp]	ldr RG3,[sp, #4]	add sp, sp, #8    	
+push {r0, r1, r2}	sub sp, sp, #12	str RG2,[sp, #8]	str RG3,[sp, #4]	str RG4,[sp]
+
