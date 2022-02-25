@@ -1,6 +1,6 @@
 README
 
-# BIT-AARS : a ARM Simulator in Java 
+# BIT-AARS : ARM Simulator in Java 
 
 
 ## 1. Introduction
